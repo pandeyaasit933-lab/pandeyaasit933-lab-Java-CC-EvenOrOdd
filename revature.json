@@ -1,0 +1,35 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/EvenOrOddTest.java",
+      "testCases": [
+        {
+          "methodName": "evenTest1",
+          "label": "Test a positive even number",
+          "description": "Verifies that the method correctly returns 'Even' for the positive integer 4."
+        },
+        {
+          "methodName": "evenTest2",
+          "label": "Test the even case for zero",
+          "description": "Verifies that the method correctly returns 'Even' for the integer 0."
+        },
+        {
+          "methodName": "evenTest3",
+          "label": "Test a larger positive even number",
+          "description": "Verifies that the method correctly returns 'Even' for the positive integer 12."
+        },
+        {
+          "methodName": "oddTest1",
+          "label": "Test a positive odd number",
+          "description": "Verifies that the method correctly returns 'Odd' for the positive integer 3."
+        },
+        {
+          "methodName": "oddTest2",
+          "label": "Test a negative odd number",
+          "description": "Verifies that the method correctly returns 'Odd' for the negative integer -5."
+        }
+      ]
+    }
+  ]
+}
